@@ -40,10 +40,10 @@
         default_layer {
             bindings = <
  &kp GRAVE   &kp N1         &kp N2          &kp N3  &kp N4  &kp N5                     &tog 1                                                                                                                          &mo 3  &kp N6    &kp N7    &kp N8       &kp N9            &kp N0   &kp MINUS
-   &kp TAB    &kp Q          &kp W           &kp E   &kp R   &kp T            &kp PRINTSCREEN                                                                                                                   &kp C_VOL_DN   &kp Y     &kp U     &kp I        &kp O             &kp P    &kp BSLH
+   &kp TAB    &kp Q          &kp W           &kp E   &kp R   &kp T            &kp PRINTSCREEN                                                                                                                   &kp C_VOL_UP   &kp Y     &kp U     &kp I        &kp O             &kp P    &kp BSLH
   &kp CAPS    &kp A          &kp S           &kp D   &kp F   &kp G                 &kp C_MUTE  &mt LEFT_SHIFT ESC  &mt LEFT_BRACKET RIGHT_BRACKET                                &kp LGUI  &mt LEFT_SHIFT F14   &kp C_VOL_DN   &kp H     &kp J     &kp K        &kp L          &kp SEMI     &kp SQT
    &kp F16    &kp Z          &kp X           &kp C   &kp V   &kp B                                                                        &kp F16                                 &kp TAB                                      &kp N     &kp M    &kp UP  &lt 1 COMMA  &mt COMMA PERIOD   &kp EQUAL
-     &mo 2  &kp DEL  &kp BACKSPACE  &kp LEFT_SHIFT   &mo 1                          &kp LCTRL        &kp LEFT_ALT              &macro_macro_ditto                  &macro_macro_switchero           &kp ENTER  &mt F14 SPACE          &kp LEFT  &kp DOWN    &kp RIGHT         &kp SLASH  &kp C_MUTE
+     &mo 2  &kp DEL  &kp BACKSPACE  &kp LEFT_SHIFT   &mo 1                          &kp LCTRL        &kp LEFT_ALT              &macro_macro_ditto                  &macro_macro_switchero           &kp ENTER      &kp SPACE          &kp LEFT  &kp DOWN    &kp RIGHT         &kp SLASH  &kp C_MUTE
             >;
         };
 
@@ -71,8 +71,8 @@
             bindings = <
   &none  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4                             &none                                                                                  &trans   &none       &none            &none       &none       &none   &none
   &none         &none         &none         &none         &none         &none                       &bootloader                                                                             &bootloader   &none       &none            &none       &none       &none   &none
-  &none         &none         &none         &none         &none         &none            &rgb_ug RGB_MEFS_CMD 5       &none  &bt BT_CLR                  &bt BT_CLR  &bt BT_CLR  &rgb_ug RGB_MEFS_CMD 5   &none       &none            &none       &none       &none   &none
-  &none         &none         &none         &none         &none         &none                                                     &none                       &none                                       &none       &none            &none       &none       &none   &none
+  &none         &none         &none         &none         &none         &none            &rgb_ug RGB_MEFS_CMD 5       &none  &bt BT_CLR                  &bt BT_CLR  &bt BT_CLR  &rgb_ug RGB_MEFS_CMD 5   &rgb_ug RGB_BRI       &none            &none       &none       &none   &none
+  &none         &none         &none         &none         &none         &none                                                     &none                       &none                                       &rgb_ug RGB_BRD      &none            &none       &none       &none   &none
   &none         &none         &none         &none         &none                                      &bl BL_INC  &bl BL_DEC       &none                  &bl BL_TOG       &none                   &none          &bl BL_TOG  &rgb_ug RGB_TOG  &bl BL_INC  &bl BL_DEC   &none
             >;
         };
